@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Share+Tech+Mono&display=swap');
+
+
+body {
+    background-color: #1b0a36;
+    
+}
+
+main {
+    padding: 10px;
+}
+
+.hero {
+    background-color: #1e0026;
+    min-height: 20rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 4rem auto 0;
+    max-width: 70rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    border: #d90368 1px solid;
+    box-shadow: #d90368 0px 10px;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+.hero-content {
+    width: 100%;
+}
+
+.titulo {
+    font-family: "Share Tech Mono", monospace;
+    color: white;
+    font-size: 1rem;
+}
+
+.meu-nome {
+    color: #d90368;
+    font-size: 6rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.3rem;
+}
+
+.paragraph {
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: #1e0026;
+}
+
+nav {
+    font-family: Poppins;
+    font-weight: bold;
+}
+
+
+/* Desktop */
+@media (min-width: 768px) {
+    .hero {
+        flex-direction: row;
+        align-items: center;
+        padding: 3rem;
+    }
+
+    .hero-image {
+        width: 45%;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+}
