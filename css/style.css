@@ -163,27 +163,54 @@ nav {
   margin-top: 4rem;
 }
 
-@media (min-width: 768px) {
-  .hero {
-    max-width: 70vh;
-  }
-
-  .second-hero {
-    max-width: 100vh;
-  }
-
-  .hero-image {
+@media (max-width: 767px) {
+  main {
     width: 100%;
+    overflow-x: hidden;
   }
 
-  section {
-    display: flex;
-    gap: 2rem;
+  .terminal {
+    width: 100%;
+    max-width: 70rem;
+    box-sizing: border-box;
+    overflow: hidden;
   }
 
-  .tools {
-    display: flex;
-    justify-content: center;
+  .hero,
+  .second-hero {
+    width: auto;
+    max-width: 70rem;
+    box-sizing: border-box;
   }
 
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .hero-content {
+    min-width: 0;
+  }
+
+  .paragraph {
+    overflow-wrap: break-word;
+  }
+
+  .nicolas {
+    width: calc(100% + 60px);
+    max-width: none;
+    box-sizing: border-box;
+  }
+
+  .container-item {
+    min-width: 0;
+  }
+
+  .card-content {
+    min-width: 0;
+  }
+
+  .card-titulo {
+    overflow-wrap: break-word;
+  }
 }
