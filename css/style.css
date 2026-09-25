@@ -9,7 +9,7 @@ body {
 }
 
 main {
-  padding: 20px;
+  
 }
 
 header {
@@ -205,9 +205,6 @@ nav {
     display: flex;
     flex-direction: column;
   }
-
- 
- 
 
   .card-content {
     min-width: 0;
