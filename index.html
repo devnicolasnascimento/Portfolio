@@ -1,98 +1,66 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-    <title>Nicolas.dev</title>
-  </head>
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Nicolas.dev</title>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
 
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg p-4">
-        <div class="container-fluid">
-          <a class="navbar-brand text-light fw-lighter" href="#"
-            >$ Nicolas.dev</a
-          >
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg p-4 navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light fw-lighter" href="#">$ Nicolas.dev</a>
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
+        <div class="collapse navbar-collapse " id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto d-md-flex align-items-md-center gap-md-4">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Início</a>
+            </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tecnologias</a>
+            </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
 
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown link
-                </a>
-
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#">Action</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Another action</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#"> Something else here </a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+            <li class="nav-item dropdown">
+            
+              <a href="" class="botao text-decoration-none">Baixar curriculo</a>
+              
+            </li>
+          </ul>
         </div>
-      </nav>
-    </header>
-
-    <main class="m-lg-5">
-      <div
-        class="m-auto rounded p-4 terminal d-flex flex-column justify-content-center gap-3 mt-4"
-        style="max-width: 70rem;"
-      >
-        <p class="mb-0">$ git add . <span class="">(main)</span>
-        <p class="mb-0">$ git commit -m "Seja bem-vindo(a) <span>(main)"<spanp>
-        <p class="mb-0">$ git push <span>(main)</span>
       </div>
-      <section class="hero">
+    </nav>
+  </header>
+
+  <main class="m-lg-5">
+    <div class="m-auto rounded p-4 terminal d-flex flex-column justify-content-center gap-3 mt-4"
+      style="max-width: 70rem;">
+      <p class="mb-0">$ git add . <span class="">(main)</span>
+      <p class="mb-0">$ git commit -m "Seja bem-vindo(a) <span>(main)"<spanp>
+            <p class="mb-0">$ git push <span>(main)</span>
+    </div>
+    <section>
+      <div class="hero">
         <div class="hero-image">
           <img
-            src="https://img.magnific.com/fotos-gratis/retrato-de-homem-branco-isolado_53876-40306.jpg?semt=ais_hybrid&w=740&q=80"
-            class="img-fluid rounded"
-            alt="Foto de Nicolas"
-          />
+            src="images/brand/nicolas.png"
+            class="img-fluid rounded" alt="Foto de Nicolas" />
         </div>
 
         <div class="hero-content">
@@ -106,10 +74,48 @@
             nulla expedita asperiores cumque provident accusamus nam amet,
             voluptas minima eum adipisci a!
           </p>
-        </div>
-      </section>
-    </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+
+
+          <div class="tools">
+            <div class="d-flex gap-3 mt-5 mb-5 justify-content-center">
+              <img src="images/icons/github.png" alt="" width="50">
+              <img src="images/icons/linkedin.png" alt="" width="50">
+              <img src="images/icons/instagram.png" alt="" width="50" class="bri">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="second-hero p-5">
+        <h1 class="trajetoria-title text-center">$ cd <span class="text-white">Trajetória.</span></h1>
+        <div class="card-container d-flex flex-column gap-4 text-white">
+          <div class="container-item">
+            <h1 class="card-titulo">Sistemas e midias digitais - universidade federal do ceará</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, consectetur accusamus! Soluta
+            aliquam ad, veniam repellat nulla odio. Velit beatae rem mollitia explicabo earum corrupti nemo iure omnis
+            ratione alias?
+          </div>
+          <div class="container-item">
+            <h1 class="card-titulo">Sistemas e midias digitais - universidade federal do ceará</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eius dolore illo, expedita at nemo,
+            reprehenderit delectus quos veritatis nam esse temporibus quibusdam asperiores exercitationem similique
+            praesentium et corporis doloribus.
+          </div>
+          <div class="container-item">
+            <h1 class="card-titulo">Sistemas e midias digitais - universidade federal do ceará</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quia itaque odio sequi qui dignissimos, amet
+            rem. Dolorem nisi consequatur fuga doloremque reiciendis cumque! Molestias molestiae architecto placeat
+            possimus et.
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>

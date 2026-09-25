@@ -1,19 +1,55 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Share+Tech+Mono&display=swap");
 
-.navbar-toggler {
-    border: none;
-}
-
-
 body {
   background-color: #0a0217;
+  background-image: url(../images/brand/nicosign-pattern.png);
+  background-size: cover;
+  background-position: 30% 60%;
 }
 
 main {
   padding: 20px;
 }
 
+header {
+  background-color: #1e0026;
+  border-bottom: 1px solid #230553af;
+}
+
+nav {
+  font-family: "Share Tech Mono";
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-family: Share Tech Mono;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.nav-link {
+  color: white;
+  font-weight: lighter;
+}
+
 .hero {
+  background-color: #1e0026;
+  min-height: 20rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: 4rem auto 0;
+  max-width: 70rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  border: #d90368 1px solid;
+  box-shadow: #d90368 0px 10px;
+}
+
+.second-hero {
   background-color: #1e0026;
   min-height: 20rem;
   padding: 1rem;
@@ -28,11 +64,6 @@ main {
   box-shadow: #d90368 0px 10px;
 }
 
-.nav-link {
-  color: white;
-  font-weight: lighter;
-}
-
 .terminal {
   color: white;
   font-family: Share Tech Mono;
@@ -42,9 +73,10 @@ main {
   box-shadow: 0px 4px #d90368;
 }
 
-.detail {
-  background-color: #d90368;
-  margin-top: 4rem;
+.container-item {
+  background-color: #0a0217;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .hero-image {
@@ -73,38 +105,58 @@ main {
   letter-spacing: -0.3rem;
 }
 
+.trajetoria-title {
+  color: #d90368;
+  font-size: clamp(2.2rem, 8vw, 4rem);
+  font-family: "Share Tech Mono", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.4rem;
+  text-align: center;
+  margin: 0;
+}
+
+.card-titulo {
+  font-family: poppins;
+  font-size: 1.5rem;
+}
+
 .paragraph {
   color: white;
   font-family: "Poppins", sans-serif;
 }
 
-header {
-  background-color: #1e0026;
+.botao {
+  background-color: #d90368;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
 }
 
-nav {
-  font-family: Poppins;
-  font-weight: bold;
+.detail {
+  background-color: #d90368;
+  margin-top: 4rem;
 }
 
-.navbar-brand {
-  font-family: Share Tech Mono;
-}
-
-/* Desktop */
 @media (min-width: 768px) {
   .hero {
-    flex-direction: row;
-    align-items: center;
-    padding: 3rem;
-    
+    max-width: 70vh;
+  }
+
+  .second-hero {
+    max-width: 100vh;
   }
 
   .hero-image {
-    width: 45%;
+    width: 100%;
   }
 
-  .hero-content {
-    width: 100%;
+  section {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .tools {
+    display: flex;
+    justify-content: center;
   }
 }
