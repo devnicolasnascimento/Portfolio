@@ -64,15 +64,6 @@ nav {
   box-shadow: #d90368 0px 10px;
 }
 
-.terminal {
-  color: white;
-  font-family: Share Tech Mono;
-  line-height: 2px;
-  background-color: #1e0026;
-  border: #410053 1px solid;
-  box-shadow: 0px 4px #410053;
-}
-
 .container-item {
   background-color: #0a0217;
   padding: 2rem;
@@ -167,13 +158,6 @@ nav {
 
   section {
     padding: 1rem;
-  }
-
-  .terminal {
-    width: 100%;
-    max-width: 70rem;
-    box-sizing: border-box;
-    overflow: hidden;
   }
 
   .hero,
