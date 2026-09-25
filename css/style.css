@@ -8,9 +8,7 @@ body {
   overflow-x: hidden;
 }
 
-main {
-  
-}
+
 
 header {
   background-color: #1e0026;
@@ -208,6 +206,10 @@ nav {
 
   .card-content {
     min-width: 0;
+  }
+
+  .card-container {
+    font-size: 0.5rem;
   }
 
   .card-titulo {
