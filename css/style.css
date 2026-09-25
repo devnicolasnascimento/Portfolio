@@ -5,6 +5,7 @@ body {
   background-image: url(../images/brand/nicosign-pattern.png);
   background-size: cover;
   background-position: 30% 60%;
+  overflow-x: hidden;
 }
 
 main {
@@ -23,6 +24,7 @@ nav {
 
 .navbar-brand {
   font-family: Share Tech Mono;
+  color: #d90368;
 }
 
 .navbar-toggler {
@@ -69,14 +71,38 @@ nav {
   font-family: Share Tech Mono;
   line-height: 2px;
   background-color: #1e0026;
-  border: #d90368 1px solid;
-  box-shadow: 0px 4px #d90368;
+  border: #410053 1px solid;
+  box-shadow: 0px 4px #410053;
 }
 
 .container-item {
   background-color: #0a0217;
-  padding: 20px;
+  padding: 2rem;
   border-radius: 10px;
+  display: flex;
+  gap: 2rem;
+}
+
+.number {
+  background-color: #d90368;
+  width: 1rem;
+  height: 1rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  
+}
+
+.nicolas {
+  background-color: #d90368;
+  width: calc(100% + 60px);
+  margin-left: -20px;
+  padding: 1rem;
+  box-sizing: border-box;
+  margin-top: 7rem;
+  transform: rotate(-2.5deg);
+  font-family: "Share Tech Mono";
+  color: white;
+  font-size: 1rem;
 }
 
 .hero-image {
@@ -159,4 +185,5 @@ nav {
     display: flex;
     justify-content: center;
   }
+
 }
