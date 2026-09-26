@@ -45,10 +45,10 @@ section {
   border-radius: 0.5rem;
   margin: 4rem auto 0;
   max-width: 70rem;
+  gap: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 2rem;
   border: #d90368 1px solid;
   box-shadow: #d90368 0px 15px;
 }
@@ -110,6 +110,15 @@ section {
   font-family: "Share Tech Mono";
   color: white;
   font-size: 1rem;
+}
+
+.tools {
+  padding: 1rem 0;
+  margin: 0;
+}
+
+.images {
+  width: 3rem; 
 }
 
 .hero-image {
@@ -187,6 +196,7 @@ section {
     box-sizing: border-box;
   }
 
+
   .hero-image img {
     max-width: 100%;
     height: auto;
@@ -237,10 +247,6 @@ section {
     height: 0.5rem;
   }
 
-  .badge-container {
-    margin-top: 5rem;
-  }
-
   .nico-badge {
     background-color: #d90368;
     max-width: auto;
@@ -250,5 +256,13 @@ section {
     color: white;
   }
 
+  .tools {
+    padding: 1rem 0;
+    margin: 0;
+  }
+
+  .badge-container {
+    margin: 0;
+  }
 
 }

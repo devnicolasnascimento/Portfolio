@@ -14,3 +14,4 @@ gsap.from(".second-hero", {
     stagger: 0.2,
     ease: "power2.out"
 });
+
