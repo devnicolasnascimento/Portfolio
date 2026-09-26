@@ -20,6 +20,10 @@ nav {
   font-weight: bold;
 }
 
+section {
+  padding: 7rem;
+}
+
 .navbar-brand {
   font-family: Share Tech Mono;
   color: #d90368;
@@ -181,9 +185,9 @@ nav {
   }
 
   .nicolas {
-    width: calc(100% + 60px);
     max-width: none;
     box-sizing: border-box;
+    font-size: 0.7rem;
   }
 
   .container-item {
@@ -206,5 +210,9 @@ nav {
 
   .meu-nome {
     font-size: 4rem;
+  }
+
+  .number {
+    font-size: 1rem;
   }
 }
