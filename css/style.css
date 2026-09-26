@@ -259,6 +259,8 @@ section {
   .tools {
     padding: 1rem 0;
     margin: 0;
+    position: relative;
+    top: 1rem;
   }
 
   .badge-container {
