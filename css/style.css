@@ -42,7 +42,7 @@ section {
   background-color: #1e0026;
   min-height: 20rem;
   padding: 2rem;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   margin: 4rem auto 0;
   max-width: 70rem;
   display: flex;
@@ -50,14 +50,33 @@ section {
   justify-content: center;
   gap: 2rem;
   border: #d90368 1px solid;
-  box-shadow: #d90368 0px 10px;
+  box-shadow: #d90368 0px 15px;
+}
+
+.circle {
+  background-color: white;
+  width: 1rem;
+  height: 1rem;
+}
+
+.badge-container {
+  margin-top: 5rem;
+}
+
+.nico-badge {
+  background-color: #d90368;
+  max-width: auto;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 15px;
+  color: white;
 }
 
 .second-hero {
   background-color: #1e0026;
   min-height: 20rem;
   padding: 1rem;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   margin: 4rem auto 0;
   max-width: 70rem;
   display: flex;
@@ -65,7 +84,7 @@ section {
   justify-content: center;
   gap: 2rem;
   border: #d90368 1px solid;
-  box-shadow: #d90368 0px 10px;
+  box-shadow: #d90368 0px 15px;
 }
 
 .container-item {
@@ -82,7 +101,7 @@ section {
   height: 1rem;
   padding: 1.5rem;
   border-radius: 10px;
-  
+
 }
 
 .nicolas {
@@ -214,5 +233,23 @@ section {
 
   .number {
     font-size: 1rem;
+  }
+
+  .circle {
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+
+  .badge-container {
+    margin-top: 5rem;
+  }
+
+  .nico-badge {
+    background-color: #d90368;
+    max-width: auto;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 12px;
+    color: white;
   }
 }
