@@ -59,9 +59,6 @@ section {
   height: 1rem;
 }
 
-.badge-container {
-  margin-top: 5rem;
-}
 
 .nico-badge {
   background-color: #d90368;
@@ -249,7 +246,9 @@ section {
     max-width: auto;
     text-align: center;
     font-family: "Poppins";
-    font-size: 12px;
+    font-size: 10px;
     color: white;
   }
+
+
 }
